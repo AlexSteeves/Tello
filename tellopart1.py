@@ -1,9 +1,9 @@
 from easytello import tello
 import keyboard
-t = tello.Tello();
+t = tello.Tello()
 
-t.takeoff();
-t.streamon();
+t.takeoff()
+t.streamon()
 
 while(True):
     try:
@@ -19,8 +19,8 @@ while(True):
             break
     except:
         pass
-t.streamoff();
-t.land();
+t.streamoff()
+t.land()
 
-##22
+
 
